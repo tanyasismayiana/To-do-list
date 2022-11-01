@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body{
+  background-color:#000000 ;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0 40px;
 }
+.main-section{
+  width: 100%;
+  min-height: 400px;
+  background-color: #3C424A;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.container{
+  max-width: 800px;
+}
+nav{
+  width: 100%;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+nav > a{
+  color:white;
+  padding:10px 20px;
+  text-decoration: none;
+  background-color:#474b4f ;
+  font-size: large;
+}
+.date-time-info{
+  line-height: 0.2;
+  display: flex;
+  margin-top:20px;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.date-time-info > h1{
+   color: white;
+   font-size: 2.5rem;
+}
+.date-time-info > p{
+  color: #858688;
+  font-weight: 700;
+  font-size:1.1rem;
+}
+form{
+  width:100%;
+  margin-top: 30px;
+}
+
+.form-control{
+  width:100%;
+  min-height: 30px;
+  padding:5px 10px;
+}
+
+
+
+
+.task-one {
+    display: flex;
+    color: #FFFFFF;
+    
+}
+/* .task-one h3 {
+margin-left: 20px;    
+} */
+
+.todo-container{
+    width: 65%;
+    background-color: rgb(135, 135, 146);
+    margin-top: 10px;
+    margin-left: 3%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+}
+
+.task-info {
+padding: 20px;    
+}
+
+.btnSubmit{
+  background-color: rgb(179, 170, 170);
+  width: 20%;
+  color: #151313;
+  padding:6px;
+  border-radius: 20px;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.complete{
+  margin-left: 20px;
+}
+
